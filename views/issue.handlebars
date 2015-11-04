@@ -17,13 +17,12 @@
     </div>
 </div>
 <input class="button-primary" type="submit" value="Submit">
+</form>
 <script type="text/javascript">
     var desc = document.getElementById('desc');
     var preview = document.getElementById('preview');
-    var marked = document.getElementById('marked')
 
     desc.addEventListener('input', function(e){
         preview.innerHTML = marked(desc.value);
     });
 </script>
-</form>
